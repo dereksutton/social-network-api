@@ -74,7 +74,7 @@ const thoughtController = {
                 res.json(dbUserData);
             })
             .catch(err => res.json(err));
-    }
+    },
 
     // add reaction to a thought
     addReaction({ params, body }, res) {
