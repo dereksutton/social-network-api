@@ -58,12 +58,12 @@ const thoughtSeed = [
 User.deleteMany({})
     .then(() => User.collection.insertMany(userSeed))
     .then(data => {
-        console.log(data.result.n + " records inserted!");
+        console.log(data.insertedCount + " records inserted!");
     })
     .then(() => Thought.deleteMany({}))
     .then(() => Thought.collection.insertMany(thoughtSeed))
     .then(data => {
-        console.log(data.result.n + " records inserted!");
+        console.log(data.insertedCount + " records inserted!");
         process.exit(0);
     })
     .catch(err => {

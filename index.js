@@ -11,9 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', routes);
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/socialnetworkapi', {
-    useFindAndModify: false,
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
 });
 
 // log mongo queries being executed
