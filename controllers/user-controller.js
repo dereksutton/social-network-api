@@ -60,7 +60,7 @@ const userController = {
                 res.json(dbUserData);
             })
             .catch(err => res.json(err));
-    }
+    },
 
     // addFriend
     addFriend({ params }, res) {
