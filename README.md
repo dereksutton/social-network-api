@@ -24,6 +24,7 @@ This is a RESTful API for a social network web application, where users can shar
 
 ## Video Demo
 
+Here's a link to view the Video Demo: [Video URL](https://drive.google.com/file/d/1FhtCvOPTG0Zgcy_K_Q0-6Kz1xNXV_ypi/view)
 
 ## Installation
 
